@@ -18,7 +18,7 @@ def ReturnKey(event):
     sys.exit()
 
 # 取得＆設定
-UserIDPath = os.getenv('HOMEDRIVE') + os.getenv('HOMEPATH') + '\\OneDrive\\ドキュメント\\TwitterKey_b1017055.json'
+UserIDPath = os.getenv('HOMEDRIVE') + os.getenv('HOMEPATH') + '\\OneDrive\\ドキュメント\\TwitterKey_0x0553.json'
 temp = open(UserIDPath, 'r')
 UserIDData = json.load(temp)
 UserID = UserIDData['UserID']
@@ -41,6 +41,7 @@ label2 = tkinter.Label(window, text="Created by TomSuzuki \nat 2018")
 label2.place(x=490, y=10)
 EditBox = tkinter.Entry(window, width='52', font=('游ゴシック', 12))
 EditBox.place(x=0, y=24)
+EditBox.focus_set()
 
 # 動作設定
 window.bind('<Escape>', EscapeKey)
