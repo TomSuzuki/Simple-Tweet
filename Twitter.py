@@ -10,6 +10,7 @@ TweetMessage = ''
 # ユーザー情報を読み込み
 temp = open(UserIDPath, 'r')
 UserIDData = json.load(temp)
+UserID = UserIDData['UserID']
 ConsumerKey = UserIDData['ConsumerKey']
 ConsumerSecret = UserIDData['ConsumerSecret']
 AccessToken = UserIDData['AccessToken']
@@ -21,3 +22,4 @@ t.statuses.update(status=TweetMessage)
 
 # デバッグ出力空間
 print(UserIDPath)
+print(UserID)
