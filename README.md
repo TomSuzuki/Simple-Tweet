@@ -1,22 +1,23 @@
 # TwitterTestProgram
-Tweet‚·‚é‚¾‚¯‚ÌƒvƒƒOƒ‰ƒ€‚Å‚·B  
-Ctrl+EnterFƒcƒC[ƒg  
-EscFæ‚èÁ‚µ  
+Tweetã™ã‚‹ã ã‘ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚  
+Ctrl+Enterï¼šãƒ„ã‚¤ãƒ¼ãƒˆ  
+Escï¼šå–ã‚Šæ¶ˆã—  
 
-‰üs‚Í‚Å‚«‚Ü‚¹‚ñB
-•¶š—ñ‚¾‚¯‘—‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B  
+æ”¹è¡Œã¯ã§ãã¾ã›ã‚“ã€‚
+æ–‡å­—åˆ—ã ã‘é€ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚  
 
-g—p‚·‚éê‡‚Ímain.py‚ÌƒXƒNƒŠƒvƒg‚É‚ ‚éUserIDPath‚ÌêŠ‚ÉˆÈ‰º‚ÌŒ`®‚ÅTwitter‚Ìî•ñ‚ğ‘‚¢‚Ä‚­‚¾‚³‚¢B  
+ä½¿ç”¨ã™ã‚‹å ´åˆã¯main.pyã®ã‚¹ã‚¯ãƒªãƒ—ãƒˆã«ã‚ã‚‹UserIDPathã®å ´æ‰€ã«ä»¥ä¸‹ã®å½¢å¼ã§Twitterã®æƒ…å ±ã‚’æ›¸ã„ã¦ãã ã•ã„ã€‚  
 
-- temp.json ---------  
+---------------------  
+temp.json
 {
- "UserID": "@*****",  
- "ConsumerKey": "**************",  
- "ConsumerSecret": "***********",  
- "AccessToken": "********-*********************",  
- "AccessTokenSecret": "***********************"  
+"UserID": "@*****",  
+"ConsumerKey": "**************",  
+"ConsumerSecret": "***********",  
+"AccessToken": "********-*********************",  
+"AccessTokenSecret": "***********************"  
 }  
 ---------------------  
 
-windows‚È‚ç
-start.exe‚©‚ç start.vbs ‚ğŠJ‚«Astart.bat‚ğŠJ‚¢‚Ämain.py‚ğÀs‚Å‚«‚Ü‚·B
+windowsãªã‚‰
+start.exeã‹ã‚‰ start.vbs ã‚’é–‹ãã€start.batã‚’é–‹ã„ã¦main.pyã‚’å®Ÿè¡Œã§ãã¾ã™ã€‚
