@@ -10,6 +10,7 @@ Esc：取り消し
   
   
 temp.json  
+~~~~
 {
 "UserID": "@*****",  
 "ConsumerKey": "**************",  
@@ -17,6 +18,7 @@ temp.json
 "AccessToken": "********-*********************",  
 "AccessTokenSecret": "***********************"  
 }  
+~~~~
   
 windowsなら
 start.exeから start.vbs を開き、start.batを開いてmain.pyを実行できます。
