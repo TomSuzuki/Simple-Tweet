@@ -22,3 +22,8 @@ temp.json
   
 windowsなら
 start.exeから start.vbs を開き、start.batを開いてmain.pyを実行できます。
+
+## うまくいかない人へ
+- ライブラリは大丈夫か？
+- Twitterのアクセストークンは間違っていないか？
+- jsonの文字コードは？
