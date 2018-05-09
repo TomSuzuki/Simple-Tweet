@@ -1,4 +1,4 @@
-import os
+﻿import os
 import sys
 import json
 import tkinter
@@ -19,7 +19,7 @@ def ReturnKey(event):
 
 if __name__ == '__main__':
     # 取得＆設定
-    UserIDPath = os.getenv('HOMEDRIVE') + os.getenv('HOMEPATH') + '\\OneDrive\\ドキュメント\\TwitterKey_0x0553.json'
+    UserIDPath = os.getenv('HOMEDRIVE') + os.getenv('HOMEPATH') + '\\OneDrive\\ドキュメント\\Twitter\\TwitterKey_0x0553.json'
     temp = open(UserIDPath, 'r')
     UserIDData = json.load(temp)
     UserID = UserIDData['UserID']
