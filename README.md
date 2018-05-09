@@ -1,4 +1,4 @@
-# TwitterTestProgram
+# Simple Tweet
 Tweetするだけのプログラムです。  
 Ctrl+Enter：ツイート  
 Esc：取り消し  
