@@ -22,3 +22,8 @@ temp.json
   
 windowsなら
 start.exeから start.vbs を開き、start.batを開いてmain.pyを実行できます。
+
+## 更新
+| Version | comment | date |
+|:-----------|:------------|:------------:|  
+|ver 1.00|とりあえず完成|2018/01/07|
